@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration and editor files
+.env
+.env.*
+.vscode/
+.idea/
+
+# Model checkpoints and generated outputs
+*.pt
+*.pth
+*.onnx
+*.engine
+output_video.*
+fin.mp4
+checkpoints/
+
+# Large or copyrighted media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated datasets and caches
+*.cache
+*.log
+Depth-Anything-V2/assets/teaser.png
+Depth-Anything-V2/metric_depth/dataset/splits/hypersim/train.txt
